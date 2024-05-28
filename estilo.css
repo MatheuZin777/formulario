@@ -1,26 +1,26 @@
-* {
-    margin: 2px;
-    padding: 1px;
-    text-decoration: none;
-}
-
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: antiquewhite;
-    padding: 10px;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    
+}
+
+input{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
 }
 div{
     display: flex;
-    align-self: flex-end;
-} 
-
-form{
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
-
-
 
